@@ -21,7 +21,7 @@ const Sidebar = () => {
         <Link
           key={link.name}
           to={link.href}
-          className={`rounded flex gap-6 items-center py-2 px-4  
+          className={`rounded flex gap-6 items-center py-2 px-4 hover:bg-[#717171] hover:cursor-default 
              w-full  ${isHome(link.name) ? "bg-[#717171]" : ""}`}
         >
           <img src={link.icon} alt="icon-for-link" className="w-6" />
@@ -38,7 +38,7 @@ const Sidebar = () => {
         <Link
           key={link.name}
           to={link.href}
-          className={`rounded flex gap-6 items-center py-2 px-4  
+          className={` hover:bg-[#717171] hover:cursor-default rounded flex gap-6 items-center py-2 px-4  
            w-full `}
         >
           <img src={link.icon} alt="icon-for-link" className="w-6" />
@@ -49,7 +49,7 @@ const Sidebar = () => {
       {/* SUBSCRIPTIONS */}
       <h1 className=" text-md p-2 flex items-center gap-2">Subscriptions</h1>
       {subscribedChannels.map((channel) => (
-        <div className="flex px-4 gap-6 items-center p-2">
+        <div className="hover:bg-[#717171] hover:cursor-default flex px-4 gap-6 items-center p-2">
           <img
             key={channel.name}
             src={channel.photo}
@@ -65,7 +65,7 @@ const Sidebar = () => {
         <Link
           key={link.name}
           to={link.href}
-          className={`rounded flex gap-6 items-center py-2 px-4  
+          className={`hover:bg-[#717171] hover:cursor-default rounded flex gap-6 items-center py-2 px-4  
            w-full `}
         >
           <img src={link.icon} alt="icon-for-link" className="w-6" />
@@ -81,7 +81,7 @@ const Sidebar = () => {
         <Link
           key={link.name}
           to={link.href}
-          className={`rounded flex gap-6 items-center py-2 px-4  
+          className={`hover:bg-[#717171] hover:cursor-default rounded flex gap-6 items-center py-2 px-4  
            w-full `}
         >
           <img src={link.icon} alt="icon-for-link" className="w-6" />
@@ -94,7 +94,7 @@ const Sidebar = () => {
         <Link
           key={link.name}
           to={link.href}
-          className={`rounded flex gap-6 items-center py-2 px-4  
+          className={`hover:bg-[#717171] hover:cursor-default rounded flex gap-6 items-center py-2 px-4  
            w-full `}
         >
           <img src={link.icon} alt="icon-for-link" className="w-6" />

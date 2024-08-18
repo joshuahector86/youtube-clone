@@ -12,7 +12,7 @@ const VideoCard: React.FC<VideoCardType> = ({
   viewCount,
 }) => {
   return (
-    <Card className="mb-2 bg-transparent hover:bg-[#393838]/80 rounded-[20px] hover:rounded-none">
+    <Card className="mb-2 bg-transparent hover:bg-[#393838]/80 rounded-[20px] ">
       <Card
         className={`w-full 
         bg-transparent 
