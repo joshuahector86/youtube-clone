@@ -12,14 +12,17 @@ const VideoCard: React.FC<VideoCardType> = ({
 }) => {
   return (
     <Card className="mb-2 bg-transparent">
-      <Card className="relative bg-transparent">
-        <img src={photo} alt="video-photo" className="rounded" />
-        <div className=""></div>
+      <Card className="w-full bg-transparent ">
+        <img
+          src={photo}
+          alt="video-photo"
+          className="rounded  hover:rounded-none min-h-[200px]"
+        />
       </Card>
-      <Card className="bg-transparent">
-        <div className="flex gap-1">
-          <CircleUser className="w-10 h-10" />
-          <div>
+      <Card className="bg-transparent w-full">
+        <div className="flex justify-between">
+          <CircleUser className="w-8 h-8 flex-shrink-0" />
+          <div className="ml-1">
             <div>{title}</div>
             <div className="text-muted-foreground flex gap-1 items-center">
               {author} <CheckCircle className="w-3 h-3" />

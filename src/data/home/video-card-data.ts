@@ -1,9 +1,17 @@
-import { vid2 } from "@/assets/video-imgs";
-import vid1 from "../../assets/video-imgs/1.jpg";
+import {
+  vid1,
+  vid2,
+  vid3,
+  vid4,
+  vid5,
+  vid6,
+  vid7,
+  vid8,
+} from "@/assets/video-imgs";
 
 const videoCardData = [
   {
-    photo: { vid1 },
+    photo: vid1,
     title: "100 Days of Hardcore Minceraft But It's a Modded Space World",
     timeAgoPosted: "1 year ago",
     author: "Legundo",
@@ -11,7 +19,7 @@ const videoCardData = [
     viewCount: "1.5M",
   },
   {
-    photo: { vid2 },
+    photo: vid2,
     title: "100 Days of Hardcore Minceraft But It's a Modded Space World",
     timeAgoPosted: "1 year ago",
     author: "Legundo",
@@ -19,7 +27,7 @@ const videoCardData = [
     viewCount: "1.5M",
   },
   {
-    photo: { vid1 },
+    photo: vid3,
     title: "100 Days of Hardcore Minceraft But It's a Modded Space World",
     timeAgoPosted: "1 year ago",
     author: "Legundo",
@@ -27,7 +35,7 @@ const videoCardData = [
     viewCount: "1.5M",
   },
   {
-    photo: { vid1 },
+    photo: vid4,
     title: "100 Days of Hardcore Minceraft But It's a Modded Space World",
     timeAgoPosted: "1 year ago",
     author: "Legundo",
@@ -35,7 +43,7 @@ const videoCardData = [
     viewCount: "1.5M",
   },
   {
-    photo: { vid1 },
+    photo: vid5,
     title: "100 Days of Hardcore Minceraft But It's a Modded Space World",
     timeAgoPosted: "1 year ago",
     author: "Legundo",
@@ -43,7 +51,7 @@ const videoCardData = [
     viewCount: "1.5M",
   },
   {
-    photo: { vid1 },
+    photo: vid6,
     title: "100 Days of Hardcore Minceraft But It's a Modded Space World",
     timeAgoPosted: "1 year ago",
     author: "Legundo",
@@ -51,7 +59,7 @@ const videoCardData = [
     viewCount: "1.5M",
   },
   {
-    photo: { vid1 },
+    photo: vid7,
     title: "100 Days of Hardcore Minceraft But It's a Modded Space World",
     timeAgoPosted: "1 year ago",
     author: "Legundo",
@@ -59,7 +67,7 @@ const videoCardData = [
     viewCount: "1.5M",
   },
   {
-    photo: { vid1 },
+    photo: vid8,
     title: "100 Days of Hardcore Minceraft But It's a Modded Space World",
     timeAgoPosted: "1 year ago",
     author: "Legundo",
@@ -67,7 +75,7 @@ const videoCardData = [
     viewCount: "1.5M",
   },
   {
-    photo: { vid1 },
+    photo: vid8,
     title: "100 Days of Hardcore Minceraft But It's a Modded Space World",
     timeAgoPosted: "1 year ago",
     author: "Legundo",
@@ -75,7 +83,7 @@ const videoCardData = [
     viewCount: "1.5M",
   },
   {
-    photo: { vid1 },
+    photo: vid8,
     title: "100 Days of Hardcore Minceraft But It's a Modded Space World",
     timeAgoPosted: "1 year ago",
     author: "Legundo",
@@ -83,7 +91,7 @@ const videoCardData = [
     viewCount: "1.5M",
   },
   {
-    photo: { vid1 },
+    photo: vid8,
     title: "100 Days of Hardcore Minceraft But It's a Modded Space World",
     timeAgoPosted: "1 year ago",
     author: "Legundo",
@@ -91,7 +99,7 @@ const videoCardData = [
     viewCount: "1.5M",
   },
   {
-    photo: { vid1 },
+    photo: vid8,
     title: "100 Days of Hardcore Minceraft But It's a Modded Space World",
     timeAgoPosted: "1 year ago",
     author: "Legundo",
@@ -99,7 +107,7 @@ const videoCardData = [
     viewCount: "1.5M",
   },
   {
-    photo: { vid1 },
+    photo: vid8,
     title: "100 Days of Hardcore Minceraft But It's a Modded Space World",
     timeAgoPosted: "1 year ago",
     author: "Legundo",

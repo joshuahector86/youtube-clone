@@ -6,7 +6,7 @@ import {
   sidebarUrls5,
   subscribedChannels,
 } from "@/utils/urls";
-import { ChevronRight, CircleUser } from "lucide-react";
+import { ChevronRight } from "lucide-react";
 import { Link } from "react-router-dom";
 import Copyright from "../one-offs/copyright";
 
@@ -15,7 +15,7 @@ const Sidebar = () => {
     return linkName === "Home";
   };
   return (
-    <div className="p-2 pb-10 flex flex-col gap-1 overflow-y-auto min-w-[16rem]">
+    <div className="p-2 pb-20 flex flex-col gap-1 overflow-y-auto min-w-[16rem]">
       {/* FIRST SET OF URLS */}
       {sidebarUrls1.map((link) => (
         <Link
@@ -50,7 +50,11 @@ const Sidebar = () => {
       <h1 className=" text-md p-2 flex items-center gap-2">Subscriptions</h1>
       {subscribedChannels.map((channel) => (
         <div className="flex px-4 gap-6 items-center p-2">
-          <CircleUser className="flex-shrink-0" />
+          <img
+            key={channel.name}
+            src={channel.photo}
+            className="flex-shrink-0 w-8 h-8 rounded-full"
+          />
           <p className="truncate">{channel.name}</p>
         </div>
       ))}
