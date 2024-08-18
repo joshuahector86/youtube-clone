@@ -36,9 +36,9 @@ const SearchBar = () => {
     <div className="flex gap-2 items-center">
       <div className="border rounded-full flex items-center overflow-hidden">
         <Input className="border-r w-[40rem]" placeholder="Search..." />
-        <SearchIcon className="bg-slate-500 w-10 h-10 p-2" />
+        <SearchIcon className="bg-[#2d2c2c] w-10 h-10 p-2" />
       </div>
-      <MicIcon className="bg-slate-500 rounded-full w-10 h-10 p-2" />
+      <MicIcon className="bg-[#2d2c2c] rounded-full w-10 h-10 p-2" />
     </div>
   );
 };
