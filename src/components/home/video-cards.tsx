@@ -11,21 +11,22 @@ const VideoCard: React.FC<VideoCardType> = ({
   viewCount,
 }) => {
   return (
-    <Card>
-      <Card>
-        <img src={photo} alt="video-photo" />
-        <p>{videoLength}</p>
+    <Card className="mb-2 bg-transparent">
+      <Card className="relative bg-transparent">
+        <img src={photo} alt="video-photo" className="rounded" />
+        <div className=""></div>
       </Card>
-      <Card>
-        <div>
-          <CircleUser />
+      <Card className="bg-transparent">
+        <div className="flex gap-1">
+          <CircleUser className="w-10 h-10" />
           <div>
             <div>{title}</div>
-            <div className="text-muted-foreground">
-              {author} <CheckCircle />
+            <div className="text-muted-foreground flex gap-1 items-center">
+              {author} <CheckCircle className="w-3 h-3" />
             </div>
-            <div>
-              {viewCount} views <Dot /> {timeAgoPosted}
+            <div className="flex items-center">
+              {viewCount} views <Dot /> {timeAgoPosted} <Dot />{" "}
+              <p className="text-right ">{videoLength}</p>
             </div>
           </div>
           <EllipsisVertical />
