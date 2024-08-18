@@ -3,6 +3,7 @@ export type VideoCardType = {
   title: string;
   timeAgoPosted: string;
   author: string;
+  authorImg: string;
   videoLength: string;
   viewCount: string | number;
 };

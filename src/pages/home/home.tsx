@@ -15,6 +15,7 @@ const Home = () => {
               title={videos.title}
               timeAgoPosted={videos.timeAgoPosted}
               author={videos.author}
+              authorImg={videos.authorImg}
               videoLength={videos.videoLength}
               viewCount={videos.viewCount}
             />

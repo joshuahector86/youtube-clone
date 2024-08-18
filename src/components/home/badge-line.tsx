@@ -10,7 +10,7 @@ const BadgeLine = () => {
       {badges.map((badge) => (
         <Badge
           variant="secondary"
-          className={`text-sm 
+          className={`text-sm cursor-default
             ${isAll(badge.name) ? "bg-[#717171]" : ""}
         
         `}
