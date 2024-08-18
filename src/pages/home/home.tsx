@@ -8,7 +8,7 @@ const Home = () => {
     <Page>
       <div className="flex flex-col gap-4">
         <BadgeLine />
-        <div className="grid grid-cols-1  md:grid-cols-2 lg:grid-cols-3 xl:grid-cols-4 gap-4">
+        <div className="grid grid-cols-1  md:grid-cols-2 lg:grid-cols-3 3xl:grid-cols-4  gap-4">
           {videoCardData.map((videos) => (
             <VideoCard
               photo={videos.photo}
