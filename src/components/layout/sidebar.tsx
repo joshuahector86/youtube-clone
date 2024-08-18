@@ -17,7 +17,7 @@ const Sidebar = () => {
   };
   const { isDisplay } = useSidebarDisplayStore();
   return (
-    <div>
+    <>
       {isDisplay ? (
         <div className="p-2 pb-20 flex flex-col gap-1 overflow-y-auto min-w-[16rem]">
           {/* FIRST SET OF URLS */}
@@ -111,10 +111,41 @@ const Sidebar = () => {
           <Copyright />
         </div>
       ) : (
-        ""
+        <HamburgerMenuDisplay />
       )}
+    </>
+  );
+};
+
+const HamburgerMenuDisplay = () => {
+  return (
+    <div className="p-2  items-center">
+      {sidebarUrls1.map((link) => (
+        <Link
+          to={link.href}
+          className="flex flex-col gap-2 items-center hover:bg-[#717171]/20 rounded p-1 py-4 text-nowrap"
+        >
+          <img src={link.icon} alt="link-icon" />
+          <p className="text-xs">{link.name}</p>
+        </Link>
+      ))}
     </div>
   );
 };
 
+export const PhoneMenuDisplay = () => {
+  return (
+    <div className="flex justify-between items-center">
+      {sidebarUrls1.map((link) => (
+        <Link
+          to={link.href}
+          className="flex flex-col p-4 gap-2 items-center hover:bg-[#717171]/20 rounded "
+        >
+          <img src={link.icon} alt="link-icon" />
+          <p className="text-xs">{link.name}</p>
+        </Link>
+      ))}
+    </div>
+  );
+};
 export default Sidebar;
