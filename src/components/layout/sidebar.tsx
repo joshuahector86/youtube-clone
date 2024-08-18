@@ -30,7 +30,7 @@ const Sidebar = () => {
       ))}
       <div className="w-full  border-muted-foreground border-b " />
       {/* SECOND SET OF URLS */}
-      <h1 className="font-semibold text-xl p-2 flex items-center gap-2">
+      <h1 className=" text-md p-2 flex items-center gap-2">
         You
         <ChevronRight />
       </h1>
@@ -47,9 +47,7 @@ const Sidebar = () => {
       ))}
       <div className="w-full  border-muted-foreground border-b " />
       {/* SUBSCRIPTIONS */}
-      <h1 className="font-semibold text-xl p-2 flex items-center gap-2">
-        Subscriptions
-      </h1>
+      <h1 className=" text-md p-2 flex items-center gap-2">Subscriptions</h1>
       {subscribedChannels.map((channel) => (
         <div className="flex px-4 gap-6 items-center p-2">
           <CircleUser className="flex-shrink-0" />
@@ -58,9 +56,7 @@ const Sidebar = () => {
       ))}
       <div className="w-full  border-muted-foreground border-b " />
       {/* EXPLORE */}
-      <h1 className="font-semibold text-xl p-2 flex items-center gap-2">
-        Explore
-      </h1>
+      <h1 className=" text-md p-2 flex items-center gap-2">Explore</h1>
       {sidebarUrls3.map((link) => (
         <Link
           key={link.name}
@@ -74,7 +70,7 @@ const Sidebar = () => {
       ))}
       <div className="w-full  border-muted-foreground border-b " />
       {/* MORE FROM CLONETUBE */}
-      <h1 className="font-semibold text-xl p-2 flex items-center gap-2">
+      <h1 className=" text-md p-2 flex items-center gap-2">
         More from CloneTube
       </h1>
       {sidebarUrls4.map((link) => (
