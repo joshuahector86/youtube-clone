@@ -1,4 +1,13 @@
 import {
+  creator1,
+  creator2,
+  creator3,
+  creator4,
+  creator5,
+  creator6,
+  creator7,
+} from "@/assets/author-imgs";
+import {
   channelIcon,
   cloneMusicIcon,
   clonetubeKidsIcons,
@@ -101,24 +110,31 @@ const sidebarUrls2 = [
 const subscribedChannels = [
   {
     name: "CNBC",
+    photo: creator1,
   },
   {
     name: "Pure Sleeping Visions",
+    photo: creator2,
   },
   {
     name: "berleezy",
+    photo: creator3,
   },
   {
     name: "AngryJoeShow",
+    photo: creator4,
   },
   {
     name: "Floydson",
+    photo: creator5,
   },
   {
     name: "Dance Jam Productions",
+    photo: creator6,
   },
   {
     name: "Kylie Sakaida, MS, Engineering",
+    photo: creator7,
   },
 ];
 
