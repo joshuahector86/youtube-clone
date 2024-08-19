@@ -32,7 +32,7 @@ const VideoCard: React.FC<VideoCardType> = ({
       </Card>
       <Card className="bg-transparent w-full">
         <div className="flex justify-between p-1 ">
-          <div className="flex gap-2">
+          <div className="flex gap-2 text-left">
             <img
               src={authorImg}
               className="w-8 h-8 rounded-full flex-shrink-0"
