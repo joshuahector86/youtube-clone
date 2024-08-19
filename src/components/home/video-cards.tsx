@@ -24,7 +24,7 @@ const VideoCard: React.FC<VideoCardType> = ({
         <img
           src={photo}
           alt="video-photo"
-          className="rounded-[20px]  w-full h-auto block object-cover aspect-video  "
+          className="rounded-[20px] w-full h-auto block object-cover aspect-video"
         />
         <p className="absolute bottom-[10px] right-[10px] bg-black opacity-70 p-[4px] text-[14px]">
           {videoLength}

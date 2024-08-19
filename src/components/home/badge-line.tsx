@@ -6,7 +6,7 @@ const BadgeLine = () => {
     return badgeName === "All";
   };
   return (
-    <div className="flex gap-2 overflow-auto pb-2">
+    <div className="flex gap-2 justify-center overflow-auto pb-2">
       {badges.map((badge) => (
         <Badge
           variant="secondary"
