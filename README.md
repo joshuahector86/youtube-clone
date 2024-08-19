@@ -23,3 +23,7 @@ I had some down time and felt like doing a short project. This project is just m
 npm install  
 npm run dev
 ```
+
+
+https://github.com/user-attachments/assets/c9a7db7e-f102-4e1c-8552-ca4bf9a1fd70
+
