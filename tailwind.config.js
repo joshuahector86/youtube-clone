@@ -24,6 +24,7 @@ module.exports = {
         lg: "1200px",
         xl: "1400px",
         "2xl": "1536px",
+        "3xl": "2200px",
       },
       colors: {
         border: "hsl(var(--border))",
