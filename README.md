@@ -1,3 +1,25 @@
 # Youtube Clone
 
-Done with shadcn, reactTS, tailwind
+
+## Tools Used
+Youtube Clone Project done with the following technologies:  
+ReactTS  
+TailwindCSS  
+shadcn ui  
+
+Tool Versions:  
+npm v10.8.2  
+node v20.12.0  
+React v18.3.1
+react-dom v18.3.1
+
+
+## Project Purpose
+I had some down time and felt like doing a short project. This project is just mock data and a UI. I chose Youtube as the UI to clone simply because I liike the asthetic of it.  
+
+### Install & Run
+
+```
+npm install  
+npm run dev
+```
