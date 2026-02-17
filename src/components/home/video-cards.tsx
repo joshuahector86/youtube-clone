@@ -12,7 +12,10 @@ const VideoCard: React.FC<VideoCardType> = ({
   viewCount,
 }) => {
   return (
-    <Card className="mb-2 bg-transparent hover:bg-[#393838]/80 rounded-[20px] ">
+    <Card
+      className="mb-2 bg-transparent hover:bg-[#393838]/80 rounded-[20px]"
+      style={{ contentVisibility: "auto", containIntrinsicSize: "360px 240px" }}
+    >
       <Card
         className={`w-full 
         bg-transparent 
@@ -24,6 +27,10 @@ const VideoCard: React.FC<VideoCardType> = ({
         <img
           src={photo}
           alt="video-photo"
+          loading="lazy"
+          decoding="async"
+          width={1280}
+          height={720}
           className="rounded-[20px] w-full h-auto block object-cover aspect-video"
         />
         <p className="absolute bottom-[10px] right-[10px] bg-black opacity-70 p-[4px] text-[14px]">
@@ -35,6 +42,10 @@ const VideoCard: React.FC<VideoCardType> = ({
           <div className="flex gap-2 text-left">
             <img
               src={authorImg}
+              loading="lazy"
+              decoding="async"
+              width={32}
+              height={32}
               className="w-8 h-8 rounded-full flex-shrink-0"
             />
             <div className="ml-1">

@@ -7,7 +7,7 @@ interface PageProps {
 
 const Page: React.FC<PageProps> = ({ children }) => {
   return (
-    <div style={{ height: "100vh", overflow: "hidden" }}>
+    <div className="" style={{ height: "100vh", overflow: "hidden" }}>
       <div className="sm:hidden">
         <PhoneMenuDisplay />
       </div>
@@ -18,7 +18,7 @@ const Page: React.FC<PageProps> = ({ children }) => {
         <div className="hidden sm:block overflow-auto">
           <Sidebar />
         </div>
-        <div className="p-8 mb-[5rem] w-screen " style={{ overflowY: "auto" }}>
+        <div className="p-8 mb-[5rem] w-full " style={{ overflowY: "auto" }}>
           {children}
         </div>
       </div>
